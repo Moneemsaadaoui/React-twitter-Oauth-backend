@@ -173,7 +173,7 @@ router.route("/auth/me").get(authenticate, getCurrentUser, getOne);
 
 app.use("/api/v1", router);
 
-app.listen(PORT);
+//app.listen(PORT);
 module.exports = app;
 
 console.log("Server running at http://localhost:4000/");
